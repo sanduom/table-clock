@@ -2,11 +2,11 @@
 <html>
     <head>
         <meta charset="utf-8"> 
-        <title>菜鸟教程(runoob.com)</title> 
+        <title>时钟显示</title> 
         <script src="https://cdn.staticfile.org/jquery/2.0.0/jquery.min.js">
         </script>
         <script>
-            function draw(){
+           function draw(){
   for(i=0;i<60;i++){
     D = (i<10) ? '0'+i : i;
     $('#s').append('<li data-item='+D+'>'+D+'</li>');
